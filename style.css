@@ -61,7 +61,7 @@ nav li {
     background-position: center;
     color: white;
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 0; /* Adjust this value to change the height */
 }
 
 #hero h2 {
@@ -102,10 +102,11 @@ nav li {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #FFC107; /* Changed to yellow */
+    color: #333; /* Darker text for better contrast on yellow */
     text-align: center;
     padding: 1em 0;
+    font-weight: bold;
 }
 
 /* Call to Action styles */
@@ -114,6 +115,7 @@ footer {
     padding: 40px 0;
     text-align: center;
 }
+
 
 /* Responsive styles */
 @media(max-width: 768px) {
