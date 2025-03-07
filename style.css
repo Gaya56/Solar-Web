@@ -61,7 +61,7 @@ nav li {
     background-position: center;
     color: white;
     text-align: center;
-    padding: 100px 0; /* Adjust this value to change the height */
+    padding: 70px 0; /* Adjusted padding for shorter height */
 }
 
 #hero h2 {
@@ -100,7 +100,7 @@ nav li {
     margin-bottom: 10px;
 }
 
-/* Footer Styles */
+/*Footer Styles */
 footer {
     background-color: #333;
     color: #fff;
@@ -113,6 +113,24 @@ footer {
     background-color: #f0f0f0;
     padding: 40px 0;
     text-align: center;
+}
+
+/* Signup Form Styles */
+#signup {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#signup input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+#signup button[type="submit"] {
+    /* Use existing .button styles */
 }
 
 
@@ -138,5 +156,4 @@ footer {
     #solar-tool iframe {
         width: 95%; /* Make sure iframe fits on screen */
     }
-
 }
