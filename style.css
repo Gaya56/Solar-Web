@@ -1,53 +1,141 @@
+/* General Styles */
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    line-height: 1.6;
     color: #333;
+    background-color: #f5f5f5;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
-}
-
-nav a {
-    color: #fff;
+a {
     text-decoration: none;
-    padding: 0.5em 1em;
-}
-
-main {
-    padding: 2em;
-}
-
-#hero {
-    text-align: center;
-    margin-bottom: 2em;
+    color: #007bff; /* Blue color for links */
 }
 
 .button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 0.5em 1em;
-    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+
+/* Hero Section */
+#hero {
+    background-image: url('solar-panels.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+
+/* Solar Tool Section */
+#solar-tool {
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+/* Benefits Section */
+#benefits {
+    padding: 50px 0;
+}
+.benefit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.benefit {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
     border-radius: 5px;
 }
 
-#solar-tool-placeholder {
-    border: 2px dashed #ccc;
-    padding: 2em;
-    text-align: center;
+.benefit img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
 }
 
+/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+}
+
+/* Call to Action styles */
+#cta {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media(max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    nav li {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center; /* Centered menu */
+    }
+
+    #solar-tool iframe {
+        width: 95%; /* Make sure iframe fits on screen */
+    }
+
 }
