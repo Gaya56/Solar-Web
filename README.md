@@ -12,7 +12,7 @@ We have established a basic website structure with the following:
 * **CSS (`style.css`):** Basic styling applied to the website.
 * **JavaScript (`script.js`):** Currently empty.
 * **Embedded Solar Potential Tool:** The tool from Cloud Run is embedded in the homepage using an iframe.
-* **Signup Form:** A basic signup form has been added to the `index.html`
+* **Signup Form:** A basic signup form has been added to the `index.html`.
 
 The website is functional and viewable in a browser, but it is missing key content and visual elements.
 
@@ -20,20 +20,20 @@ The website is functional and viewable in a browser, but it is missing key conte
 
 Here's a prioritized list of what we need to work on next:
 
-1.**Visual Assets:**
-    ***Hero Image:**  Find or create a suitable hero image for the `#hero` section of `index.html`. Update the `style.css` file with the correct image path.
-    ***SVG Icons:**  Find or create SVG icons for the "Reduce Energy Costs," "Help the Environment," and "Increase Home Value" benefits.  Update the `index.html` file with the correct icon paths.
+1. **Visual Assets:**
+    * **Hero Image:** Find or create a suitable hero image for the `#hero` section of `index.html`. Update the `style.css` file with the correct image path.
+    * **SVG Icons:** Find or create SVG icons for the "Reduce Energy Costs," "Help the Environment," and "Increase Home Value" benefits. Update the `index.html` file with the correct icon paths.
 
-2.**Content Creation:**
-    ***Solar Basics Page:** Populate `solar-basics.html` with detailed information about solar energy.
-    ***Contact Us Page:** Add a functional contact form to `contact.html`.
+2. **Content Creation:**
+    * **Solar Basics Page:** Populate `solar-basics.html` with detailed information about solar energy.
+    * **Contact Us Page:** Add a functional contact form to `contact.html`.
 
-3.**Form Handling:**
-    *Implement a way to handle form submissions from the contact form and signup form. This will likely require a backend service or serverless function. The current forms have `action="/signup"` which is a placeholder.
+3. **Form Handling:**
+    * Implement a way to handle form submissions from the contact form and signup form. This will likely require a backend service or serverless function. The current forms have `action="/signup"` which is a placeholder.
 
-4.**Refine Styling:**
-    *Adjust the padding of the `#hero` section in `style.css` to achieve the desired height.
-    *Further refine the website's styling to improve its visual appeal.
+4. **Refine Styling:**
+    * Adjust the padding of the `#hero` section in `style.css` to achieve the desired height.
+    * Further refine the website's styling to improve its visual appeal.
 
 ## File Notes
 
@@ -53,9 +53,9 @@ Here's a prioritized list of what we need to work on next:
 
 ## Next Steps
 
-1.Prioritize finding or creating the hero image and SVG icons. This will greatly improve the visual appeal of the homepage.
-2.  Begin populating the `solar-basics.html` page with content.
-3.  Let's discuss the best approach for handling form submissions.
+1. Prioritize finding or creating the hero image and SVG icons. This will greatly improve the visual appeal of the homepage.
+2. Begin populating the `solar-basics.html` page with content.
+3. Let's discuss the best approach for handling form submissions.
 
 ## Important Reminders
 
