@@ -61,7 +61,7 @@ nav li {
     background-position: center;
     color: white;
     text-align: center;
-    padding: 70px 0; /* Adjusted padding for shorter height */
+    padding: 52.5px 0; /* Reduced padding by 25% */
 }
 
 #hero h2 {
@@ -70,10 +70,11 @@ nav li {
 }
 
 
+
 /* Solar Tool Section */
 #solar-tool {
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 
@@ -130,8 +131,14 @@ footer {
 }
 
 #signup button[type="submit"] {
-    /* Use existing .button styles */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
+
 
 
 /* Responsive styles */
